@@ -1,5 +1,0 @@
-x=float(input("请输入餐费总额："))
-y=float(input("请输入人数"))
-z=float(input("折扣（88折就输入0.88）"))
-m=float(input("请输入优惠券，元，没有就输0"))
-print(f"原价人均{x/y}元，用券后总额{x*z-m},折后人均{(x*z-m)/y}")
